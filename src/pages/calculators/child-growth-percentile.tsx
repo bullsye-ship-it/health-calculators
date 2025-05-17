@@ -62,7 +62,7 @@ const ChildGrowthPercentileCalculator: React.FC = () => {
         <title>Child Growth Percentile Calculator | Height & Weight Percentiles</title>
         <meta name="description" content="Free online Child Growth Percentile Calculator. Instantly estimate your child's height and weight percentiles. Science-backed, mobile-friendly tool." />
         <meta name="keywords" content="child growth percentile calculator, height percentile, weight percentile, child health, health calculator, free online tool" />
-        <link rel="canonical" href="https://yourdomain.com/calculators/child-growth-percentile" />
+        <link rel="canonical" href="https://health-calculators-delta.vercel.app/calculators/child-growth-percentile" />
         <script type="application/ld+json">{JSON.stringify({
           '@context': 'https://schema.org',
           '@type': 'MedicalWebPage',
@@ -76,7 +76,7 @@ const ChildGrowthPercentileCalculator: React.FC = () => {
           'publisher': {
             '@type': 'Organization',
             'name': 'Health Calculators',
-            'url': 'https://yourdomain.com/'
+            'url': 'https://health-calculators-delta.vercel.app/'
           }
         })}</script>
       </Helmet>

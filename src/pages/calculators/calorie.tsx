@@ -43,7 +43,7 @@ const CalorieCalculator: React.FC = () => {
         <title>Calorie Calculator | Daily Calorie Needs & Weight Goals</title>
         <meta name="description" content="Free online Calorie Calculator. Instantly estimate your daily calorie needs for weight loss, maintenance, or gain. Science-backed, mobile-friendly tool." />
         <meta name="keywords" content="calorie calculator, daily calories, weight loss, weight gain, TDEE, BMR, health calculator, free online tool" />
-        <link rel="canonical" href="https://yourdomain.com/calculators/calorie" />
+        <link rel="canonical" href="https://health-calculators-delta.vercel.app/calculators/calorie" />
         <script type="application/ld+json">{JSON.stringify({
           '@context': 'https://schema.org',
           '@type': 'MedicalWebPage',
@@ -57,7 +57,7 @@ const CalorieCalculator: React.FC = () => {
           'publisher': {
             '@type': 'Organization',
             'name': 'Health Calculators',
-            'url': 'https://yourdomain.com/'
+            'url': 'https://health-calculators-delta.vercel.app/'
           }
         })}</script>
       </Helmet>

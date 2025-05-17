@@ -48,7 +48,7 @@ const BodyFatCalculator: React.FC = () => {
         <title>Body Fat Calculator | Body Fat Percentage & Health</title>
         <meta name="description" content="Free online Body Fat Calculator. Instantly estimate your body fat percentage using science-backed methods. Mobile-friendly, easy-to-use tool." />
         <meta name="keywords" content="body fat calculator, body fat percentage, health calculator, free online tool, fitness, wellness" />
-        <link rel="canonical" href="https://yourdomain.com/calculators/body-fat" />
+        <link rel="canonical" href="https://health-calculators-delta.vercel.app/calculators/body-fat" />
         <script type="application/ld+json">{JSON.stringify({
           '@context': 'https://schema.org',
           '@type': 'MedicalWebPage',
@@ -62,7 +62,7 @@ const BodyFatCalculator: React.FC = () => {
           'publisher': {
             '@type': 'Organization',
             'name': 'Health Calculators',
-            'url': 'https://yourdomain.com/'
+            'url': 'https://health-calculators-delta.vercel.app/'
           }
         })}</script>
       </Helmet>

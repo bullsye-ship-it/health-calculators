@@ -50,7 +50,7 @@ const BodySurfaceAreaCalculator: React.FC = () => {
         <title>Body Surface Area (BSA) Calculator | Du Bois & Mosteller</title>
         <meta name="description" content="Free online Body Surface Area (BSA) Calculator. Instantly estimate your BSA using Du Bois and Mosteller formulas. Science-backed, mobile-friendly tool." />
         <meta name="keywords" content="body surface area calculator, BSA, Du Bois, Mosteller, health calculator, free online tool" />
-        <link rel="canonical" href="https://yourdomain.com/calculators/body-surface-area" />
+        <link rel="canonical" href="https://health-calculators-delta.vercel.app/calculators/body-surface-area" />
         <script type="application/ld+json">{JSON.stringify({
           '@context': 'https://schema.org',
           '@type': 'MedicalWebPage',
@@ -64,7 +64,7 @@ const BodySurfaceAreaCalculator: React.FC = () => {
           'publisher': {
             '@type': 'Organization',
             'name': 'Health Calculators',
-            'url': 'https://yourdomain.com/'
+            'url': 'https://health-calculators-delta.vercel.app/'
           }
         })}</script>
       </Helmet>

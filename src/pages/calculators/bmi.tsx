@@ -14,6 +14,7 @@ const BmiPage: React.FC = () => (
       <title>BMI Calculator | Body Mass Index Chart & Health Categories</title>
       <meta name="description" content="Free online BMI Calculator. Instantly calculate your Body Mass Index, see your BMI category, and learn about healthy weight ranges. Science-backed, mobile-friendly tool." />
       <meta name="keywords" content="BMI calculator, body mass index, BMI chart, healthy weight, obesity, underweight, health calculator, free online tool" />
+      <link rel="canonical" href="https://health-calculators-delta.vercel.app/calculators/bmi" />
     </Helmet>
     <Box
       sx={{

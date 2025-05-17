@@ -38,7 +38,7 @@ const WaistToHipRatioCalculator: React.FC = () => {
         <title>Waist-to-Hip Ratio Calculator | Health Risk Assessment</title>
         <meta name="description" content="Free online Waist-to-Hip Ratio Calculator. Instantly assess your health risk using your waist and hip measurements. Science-backed, mobile-friendly tool." />
         <meta name="keywords" content="waist to hip ratio calculator, health risk, body shape, health calculator, free online tool, wellness" />
-        <link rel="canonical" href="https://yourdomain.com/calculators/waist-to-hip-ratio" />
+        <link rel="canonical" href="https://health-calculators-delta.vercel.app/calculators/waist-to-hip-ratio" />
         <script type="application/ld+json">{JSON.stringify({
           '@context': 'https://schema.org',
           '@type': 'MedicalWebPage',
@@ -52,7 +52,7 @@ const WaistToHipRatioCalculator: React.FC = () => {
           'publisher': {
             '@type': 'Organization',
             'name': 'Health Calculators',
-            'url': 'https://yourdomain.com/'
+            'url': 'https://health-calculators-delta.vercel.app/'
           }
         })}</script>
       </Helmet>

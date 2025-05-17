@@ -133,6 +133,9 @@ const ProteinCalculator: React.FC = () => {
           <AdSlot {...adConfig.desktop.right} position="right" />
         </Box>
       </Box>
+      <Helmet>
+        <link rel="canonical" href="https://health-calculators-delta.vercel.app/calculators/protein" />
+      </Helmet>
     </Layout>
   );
 };

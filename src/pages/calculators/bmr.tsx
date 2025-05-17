@@ -64,7 +64,7 @@ const BmrCalculator: React.FC = () => {
         <title>BMR Calculator | Basal Metabolic Rate & Energy Needs</title>
         <meta name="description" content="Free online BMR Calculator. Instantly estimate your Basal Metabolic Rate and daily energy needs using science-backed formulas. Mobile-friendly tool." />
         <meta name="keywords" content="BMR calculator, basal metabolic rate, energy needs, calorie calculator, health calculator, free online tool" />
-        <link rel="canonical" href="https://yourdomain.com/calculators/bmr" />
+        <link rel="canonical" href="https://health-calculators-delta.vercel.app/calculators/bmr" />
         <script type="application/ld+json">{JSON.stringify({
           '@context': 'https://schema.org',
           '@type': 'MedicalWebPage',
@@ -78,7 +78,7 @@ const BmrCalculator: React.FC = () => {
           'publisher': {
             '@type': 'Organization',
             'name': 'Health Calculators',
-            'url': 'https://yourdomain.com/'
+            'url': 'https://health-calculators-delta.vercel.app/'
           }
         })}</script>
       </Helmet>

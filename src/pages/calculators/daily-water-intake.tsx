@@ -44,7 +44,7 @@ const DailyWaterIntakeCalculator: React.FC = () => {
         <title>Daily Water Intake Calculator | Hydration Needs</title>
         <meta name="description" content="Free online Daily Water Intake Calculator. Instantly estimate your daily hydration needs based on science-backed guidelines. Mobile-friendly, easy-to-use tool." />
         <meta name="keywords" content="water intake calculator, hydration, daily water, health calculator, free online tool, wellness" />
-        <link rel="canonical" href="https://yourdomain.com/calculators/daily-water-intake" />
+        <link rel="canonical" href="https://health-calculators-delta.vercel.app/calculators/daily-water-intake" />
         <script type="application/ld+json">{JSON.stringify({
           '@context': 'https://schema.org',
           '@type': 'MedicalWebPage',
@@ -58,7 +58,7 @@ const DailyWaterIntakeCalculator: React.FC = () => {
           'publisher': {
             '@type': 'Organization',
             'name': 'Health Calculators',
-            'url': 'https://yourdomain.com/'
+            'url': 'https://health-calculators-delta.vercel.app/'
           }
         })}</script>
       </Helmet>

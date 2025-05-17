@@ -73,7 +73,7 @@ const MacroNutrientCalculator: React.FC = () => {
         <title>Macro Nutrient Calculator | Daily Carbs, Protein, Fat</title>
         <meta name="description" content="Free online Macro Nutrient Calculator. Instantly estimate your daily carbs, protein, and fat needs based on your calorie intake. Science-backed, mobile-friendly tool." />
         <meta name="keywords" content="macro calculator, macro nutrients, carbs, protein, fat, health calculator, free online tool, fitness, nutrition" />
-        <link rel="canonical" href="https://yourdomain.com/calculators/macro-nutrient" />
+        <link rel="canonical" href="https://health-calculators-delta.vercel.app/calculators/macro-nutrient" />
         <script type="application/ld+json">{JSON.stringify({
           '@context': 'https://schema.org',
           '@type': 'MedicalWebPage',
@@ -87,7 +87,7 @@ const MacroNutrientCalculator: React.FC = () => {
           'publisher': {
             '@type': 'Organization',
             'name': 'Health Calculators',
-            'url': 'https://yourdomain.com/'
+            'url': 'https://health-calculators-delta.vercel.app/'
           }
         })}</script>
       </Helmet>

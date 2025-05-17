@@ -34,7 +34,7 @@ const PregnancyDueDateCalculator: React.FC = () => {
         <title>Pregnancy Due Date Calculator | Estimate Your Baby's Arrival</title>
         <meta name="description" content="Free online Pregnancy Due Date Calculator. Instantly estimate your due date using Naegele's rule. Science-backed, mobile-friendly tool." />
         <meta name="keywords" content="pregnancy due date calculator, due date, Naegele's rule, pregnancy calculator, health calculator, free online tool" />
-        <link rel="canonical" href="https://yourdomain.com/calculators/pregnancy-due-date" />
+        <link rel="canonical" href="https://health-calculators-delta.vercel.app/calculators/pregnancy-due-date" />
         <script type="application/ld+json">{JSON.stringify({
           '@context': 'https://schema.org',
           '@type': 'MedicalWebPage',
@@ -48,7 +48,7 @@ const PregnancyDueDateCalculator: React.FC = () => {
           'publisher': {
             '@type': 'Organization',
             'name': 'Health Calculators',
-            'url': 'https://yourdomain.com/'
+            'url': 'https://health-calculators-delta.vercel.app/'
           }
         })}</script>
       </Helmet>

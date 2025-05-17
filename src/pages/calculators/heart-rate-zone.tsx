@@ -46,7 +46,7 @@ const HeartRateZoneCalculator: React.FC = () => {
         <title>Heart Rate Zone Calculator | Training & Fat Burn Zones</title>
         <meta name="description" content="Free online Heart Rate Zone Calculator. Instantly find your heart rate training zones for fat burn, cardio, and peak performance. Science-backed, mobile-friendly tool." />
         <meta name="keywords" content="heart rate zone calculator, training zones, fat burn, cardio, exercise, health calculator, free online tool" />
-        <link rel="canonical" href="https://yourdomain.com/calculators/heart-rate-zone" />
+        <link rel="canonical" href="https://health-calculators-delta.vercel.app/calculators/heart-rate-zone" />
         <script type="application/ld+json">{JSON.stringify({
           '@context': 'https://schema.org',
           '@type': 'MedicalWebPage',
@@ -60,7 +60,7 @@ const HeartRateZoneCalculator: React.FC = () => {
           'publisher': {
             '@type': 'Organization',
             'name': 'Health Calculators',
-            'url': 'https://yourdomain.com/'
+            'url': 'https://health-calculators-delta.vercel.app/'
           }
         })}</script>
       </Helmet>

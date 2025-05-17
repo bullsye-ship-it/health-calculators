@@ -76,7 +76,7 @@ const MenstruationCalculator: React.FC = () => {
     'publisher': {
       '@type': 'Organization',
       'name': 'Health Calculators',
-      'url': 'https://yourdomain.com/'
+      'url': 'https://health-calculators-delta.vercel.app/'
     }
   };
 
@@ -86,7 +86,7 @@ const MenstruationCalculator: React.FC = () => {
         <title>Menstruation & Ovulation Calculator | Next Period & Fertile Days Predictor</title>
         <meta name="description" content="Free online Menstruation and Ovulation Calculator. Predict your next period, ovulation window, and fertile days. Learn about menstrual health and cycle tracking." />
         <meta name="keywords" content="menstruation calculator, ovulation calculator, period calculator, next period, fertile days, menstrual health, women health, cycle tracker, fertility" />
-        <link rel="canonical" href="https://yourdomain.com/calculators/menstruation" />
+        <link rel="canonical" href="https://health-calculators-delta.vercel.app/calculators/menstruation" />
         <script type="application/ld+json">{JSON.stringify(schemaData)}</script>
       </Helmet>
       {/* Responsive Ad Placement */}

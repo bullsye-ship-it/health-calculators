@@ -64,7 +64,7 @@ const IdealBodyWeightCalculator: React.FC = () => {
         <title>Ideal Body Weight Calculator | Science-Backed Formulas</title>
         <meta name="description" content="Free online Ideal Body Weight Calculator. Instantly estimate your ideal weight using multiple science-backed formulas. Mobile-friendly, easy-to-use tool." />
         <meta name="keywords" content="ideal body weight calculator, healthy weight, science-backed, health calculator, free online tool" />
-        <link rel="canonical" href="https://yourdomain.com/calculators/ideal-body-weight" />
+        <link rel="canonical" href="https://health-calculators-delta.vercel.app/calculators/ideal-body-weight" />
         <script type="application/ld+json">{JSON.stringify({
           '@context': 'https://schema.org',
           '@type': 'MedicalWebPage',
@@ -78,7 +78,7 @@ const IdealBodyWeightCalculator: React.FC = () => {
           'publisher': {
             '@type': 'Organization',
             'name': 'Health Calculators',
-            'url': 'https://yourdomain.com/'
+            'url': 'https://health-calculators-delta.vercel.app/'
           }
         })}</script>
       </Helmet>
