@@ -46,12 +46,12 @@ const IndexPage: React.FC = () => {
         <title>Health Calculators – Free Online Tools for Wellness, Fitness & Nutrition</title>
         <meta name="description" content="Free online health calculators for BMI, calories, body fat, macros, water intake, pregnancy, ovulation, and more. Instantly calculate your health metrics and optimize your wellness." />
         <meta name="keywords" content="health calculators, BMI calculator, calorie calculator, body fat calculator, ovulation calculator, pregnancy calculator, fitness, nutrition, wellness, free online tools" />
-        <link rel="canonical" href="https://yourdomain.com/" />
+        <link rel="canonical" href="https://health-calculators-delta.vercel.app/" />
         <script type="application/ld+json">{JSON.stringify({
           '@context': 'https://schema.org',
           '@type': 'WebSite',
           'name': 'Health Calculators',
-          'url': 'https://yourdomain.com/',
+          'url': 'https://health-calculators-delta.vercel.app/',
           'description': 'Free online health calculators for wellness, fitness, and nutrition.'
         })}</script>
       </Helmet>
@@ -86,10 +86,17 @@ const IndexPage: React.FC = () => {
         />
         <Container maxWidth="lg" sx={{ position: 'relative', zIndex: 1 }}>
           <Box sx={{ textAlign: 'center', mb: 8 }}>
-            <Typography variant="h1" component="h1" gutterBottom sx={{ fontWeight: 800, letterSpacing: '-2px', color: '#22223b' }}>
+            <Typography variant="h1" component="h1" gutterBottom sx={{
+    fontWeight: 400,
+    letterSpacing: '-2px',
+    color: '#22223b',
+    fontSize: { xs: 24, sm: 32, md: 40 }, // Responsive font size
+    lineHeight: 1.1,
+    textAlign: 'center', // Optional: center on all screens
+  }}>
               Health Calculators – Free Online Tools for Wellness, Fitness & Nutrition
             </Typography>
-            <Typography variant="h2" color="text.secondary" paragraph sx={{ fontWeight: 400, color: '#4b5563', fontSize: 20 }}>
+            <Typography variant="h2" color="text.secondary" paragraph sx={{ fontWeight: 800, color: '#4b5563', fontSize: 20 }}>
               Instantly calculate your BMI, calories, macros, body fat, water intake, pregnancy, ovulation, and more. Trusted, science-backed calculators for your health journey.
             </Typography>
           </Box>

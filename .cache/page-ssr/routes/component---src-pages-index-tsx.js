@@ -126,14 +126,14 @@ const IndexPage = () => {
     content: "health calculators, BMI calculator, calorie calculator, body fat calculator, ovulation calculator, pregnancy calculator, fitness, nutrition, wellness, free online tools"
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("link", {
     rel: "canonical",
-    href: "https://yourdomain.com/"
+    href: "https://health-calculators-delta.vercel.app/"
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("script", {
     type: "application/ld+json"
   }, JSON.stringify({
     '@context': 'https://schema.org',
     '@type': 'WebSite',
     'name': 'Health Calculators',
-    'url': 'https://yourdomain.com/',
+    'url': 'https://health-calculators-delta.vercel.app/',
     'description': 'Free online health calculators for wellness, fitness, and nutrition.'
   }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_mui_material__WEBPACK_IMPORTED_MODULE_4__/* ["default"] */ .A, {
     sx: {
@@ -181,16 +181,24 @@ const IndexPage = () => {
     component: "h1",
     gutterBottom: true,
     sx: {
-      fontWeight: 800,
+      fontWeight: 400,
       letterSpacing: '-2px',
-      color: '#22223b'
+      color: '#22223b',
+      fontSize: {
+        xs: 24,
+        sm: 32,
+        md: 40
+      },
+      // Responsive font size
+      lineHeight: 1.1,
+      textAlign: 'center' // Optional: center on all screens
     }
   }, "Health Calculators \u2013 Free Online Tools for Wellness, Fitness & Nutrition"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_mui_material__WEBPACK_IMPORTED_MODULE_6__/* ["default"] */ .A, {
     variant: "h2",
     color: "text.secondary",
     paragraph: true,
     sx: {
-      fontWeight: 400,
+      fontWeight: 800,
       color: '#4b5563',
       fontSize: 20
     }
